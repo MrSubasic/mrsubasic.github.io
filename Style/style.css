@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Julius+Sans+One|Lobster+Two');
+
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+body{
+  background-color: #f6f6f6;
+}
+.wrap{
+  white-space: nowrap;
+  width: 1000px;
+  margin: auto;
+}
+.link{
+  color:#31302e;
+  text-decoration: none;
+}
+/*Header*/
+h2{
+  font-family:'Julius Sans One', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#31302e;
+  margin-top: 0px;
+}
+h2:hover{opacity: 0.5;}
+#first {
+  font-family:'Julius Sans One', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#31302e;
+  width: 1000px;
+  height: 30px;
+  padding-top: 10px;
+  background-color:#f6f6f6;
+  margin: -5px auto auto auto;
+  border-top-style: solid;
+  border-top-color:#a9a9a9;
+  border-bottom-style: solid;
+  border-bottom-color:#a9a9a9;
+}
+.b1{
+  display: inline-block;
+  width:75px;
+  margin-left: 15px;
+}
+.b2{
+  display: inline-block;
+  width: 75px;
+  float:right;
+  margin-right: 15px;
+}
+.b3{
+  display: inline-block;
+  width: 100px;
+  float:right;
+  margin-right:30px;
+}
+/*Articles*/
+.left{
+  width: 655.67px;
+  background-color:#8e8d8a;
+  position: relative;
+  float: left;
+  margin: auto;
+  display: inline-block;
+  margin:15px 10px auto auto;
+
+}
+.text{
+  position: absolute;
+  background-color: #ffffff;
+  height:250px;
+  width: 460px;
+  top:0px;
+  left:185px;
+  display: flex;
+  white-space: pre-line;
+}
+.title{
+  font-family:'Lobster Two', sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  margin-left: 40px;
+  margin-top: -15px;
+  color:#31302e;
+}
+.paragraph{
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 17px;
+  width:460px;
+  padding-left: 10px;
+  margin-left: -10px;
+  height: 155px;
+  margin-top:63px;
+  color:#31302e;
+}
+.portrate{
+  width: 125px;
+  height:125px;
+  border-radius: 50%;
+  border-style: solid;
+  margin:30px;
+  border-color:#31302e;
+}
+.name{
+  margin-top: -22px;
+  width:189px;
+  text-align: center;
+  font-family: 'EB Garamond', sans-serif;
+  font-size: 21px;
+  font-weight: bold;
+  color:#31302e;
+}
+.date{
+  font-size:15px;
+  color:#31302e;
+}
+#first_article{
+  width: 625x;
+  height: 250px;
+  background-color: #ffffff;
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-3px;
+
+
+}
+
+#last_article{
+  width: 625x;
+  height: 250px;
+  background-color: #ffffff;
+  position: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:3px;
+
+}
+.article{
+  height: 250px;
+  background-color: #8e8d8a;
+  margin: 3px 0px 3px 0px;
+  }
+.article1{
+  width: 625x;
+  height:250px;
+  background-color: #ffffff;
+  position: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  word-wrap: break-word;
+  width:460px;
+  height: 70px;
+}
+
+
+/*News Links*/
+#first_news{
+  width: 328.33px;
+  height: 250px;
+  background-color: #f6f6f6;
+  position: relative;
+  float: right;
+  margin: auto ;
+  display: inline-block;
+}
+.right{
+  width: 328.33px;
+  background-color: #8e8d8a;
+  position: relative;
+  display: inline-block;
+  margin:15px 10px auto auto;
+}
+.right1{
+  width: 328.33px;
+  height: 250px;
+  background-color: #f6f6f6;
+  position: relative;
+  float: right;
+  margin: 3px auto auto auto;
+  display: inline-block;
+}
+li{
+  font-family: 'EB Garamond', sans-serif;
+  font-size:17px;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  margin-left: 2px;
+  margin-top: 18px;
+}
+ul {
+  list-style: none;
+  margin-top:28px;
+}
+ul li::before {
+  font-family: 'EB Garamond', sans-serif;
+  font-size:17px;
+  font-weight: bold;
+  font-style: italic;
+  content: "\2022";
+  color:#31302e;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+
+/*Footer*/
+#last{
+  font-family:'Julius Sans One', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:#31302e;
+  width: 1000px;
+  height: 30px;
+  padding-top: 10px;
+  background-color:#f6f6f6;
+  margin: 10px auto auto auto;
+  border-top-style: solid;
+  border-top-color:#a9a9a9;
+  border-bottom-style: solid;
+  border-bottom-color:#a9a9a9;
+}
+#footer{
+  font-family:'Julius Sans One', sans-serif;
+  font-size: 12px;
+  color:#31302e;
+  margin-top: 2px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+
+/*Script*/
+#more{
+  display: none;
+}
+
+/*Button*/
+#read{
+  background-color: #a9a9a9;
+  border: none;
+  outline: none;
+  color:white;
+  margin-top: 48px;
+  margin-left: 137px;
+}
